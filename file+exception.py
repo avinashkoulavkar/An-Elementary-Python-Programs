@@ -16,19 +16,19 @@ def read_file():                                                                
 	
 	try:
 		
-		fp=open(file_name,'r+')                                                        #Opening File in r+ mode
+		fp=open(file_name,'r+')                                              #Opening File in r+ mode
 		
-		for line in fp:                                                                #reading from file
+		for line in fp:                                                      #reading from file
 			print line,
 		
-	except IOError:                                                                  #Handling IOError
+	except IOError:                                                              #Handling IOError
 		print 'IOError Occures'
 	
 	finally:
 		if fp:
 			fp.close()
 	
-def write_file():                                                                 #method for Writing File
+def write_file():                                                                    #method for Writing File
 	
 	#create_dir()
 	file_name=raw_input('Enter The File to Open:')
