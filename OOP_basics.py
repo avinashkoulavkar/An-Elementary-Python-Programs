@@ -3,7 +3,7 @@ The OOP concepts from python is simply mapped with SchoolMember of the school. T
 1. Class
 2. Object
 3. Inheritance
-4. Polymorphism (Will cover only Functional overriding)
+4. Polymorphism (Will cover only Method overriding)
 5. Data Hiding
 '''
 
