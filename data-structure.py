@@ -1,10 +1,8 @@
 '''Covering the three built-in data structures in Python - list, tuple and dictionary from in module __builtin__.
-
 In the Given Program :
 1)List is mapped with shopping list
 2)Tupple is mapped with Animal in zoo
 3)Dictionary is mapped with name and corresponding Emails
-
 '''
 
 def shopping_list():
